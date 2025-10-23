@@ -52,4 +52,5 @@ This is a practice project to learn how to connect Gradio with local models.
 
 The API key "nokeyneeded" is just a placeholder.
 
-# **Model used:** "phi:latest" — can be replaced with any Ollama-supported model.
+# **Model used:** 
+"phi:latest" — can be replaced with any Ollama-supported model.
