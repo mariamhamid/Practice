@@ -1,22 +1,18 @@
-🧠 Gradio Chat Interface for Ollama Phi Model
+# 🧠 **Gradio Chat Interface for Ollama Phi Model**
 
-This is a practice project that demonstrates how to build a simple chat interface using Gradio and the Ollama Phi model running locally.
+This is a practice project that demonstrates how to build a simple chat interface using Gradio and the Ollama Phi model running locally. It allows users to send messages and get AI-generated responses in a clean, interactive web interface.
 
-It allows users to send messages and get AI-generated responses in a clean, interactive web interface.
-
-🚀 Features
+# **🚀 Features**
 
 🗣️ Chat interactively with a local Phi model
 
 🧹 Clear the chat with one click
 
-🌐 Launches in a browser automatically
+🌐 Launches automatically in your browser
 
 🧩 Built with Gradio and OpenAI’s Python client
 
-🛠️ Requirements
-
-Make sure you have the following installed:
+# 🛠️ **Requirements**
 
 Python 3.8+
 
@@ -26,35 +22,34 @@ Ollama
 Gradio
 
 OpenAI Python package
-
-You can install the required packages by running:
+Install dependencies:
 
 pip install gradio openai
 
-▶️ How to Run
+# ▶️**How to Run**
 
-Save the Python file (e.g., gradio_chat.py).
+Save the Python file (e.g., gradio_chat.py)
 
-Make sure Ollama is running locally (ollama serve).
+Run Ollama locally:
 
-Run the script:
+ollama serve
+
+
+# **Run the script:**
 
 python gradio_chat.py
 
 
-Wait for the Gradio interface to open in your browser.
+# **Access the Gradio chat interface in your browser.**
 
 💬 Example Use
+👩‍💻 User: Hello!  
+🤖 AI: Hi there! How can I help you today?
 
-You can start chatting immediately once the interface opens:
+# **🧰 Notes**
 
-User: Hello!
-AI: Hi there! How can I help you today?
+This is a practice project to learn how to connect Gradio with local models.
 
-🧰 Notes
+The API key "nokeyneeded" is just a placeholder.
 
-This is a practice project for learning how to connect Gradio with local models.
-
-The API key "nokeyneeded" is just a placeholder for local testing.
-
-Model used: "phi:latest" — can be changed to any model supported by your Ollama installation.
+# **Model used:** "phi:latest" — can be replaced with any Ollama-supported model.
