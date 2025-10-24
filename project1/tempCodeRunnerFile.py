@@ -59,4 +59,4 @@ def gradio_chat_app():
 
 if __name__ == "__main__":
     app = gradio_chat_app()
-    app.launch()
+    app.launch(share=True)
